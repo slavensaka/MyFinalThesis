@@ -1,0 +1,48 @@
+			<!-- END CONTENT -->
+			<p><br clear="all" /></p>
+		</div>		
+		<div class="sidebar">				
+			<!-- SIDEBAR -->			
+<?php
+ if (isset($_SESSION['user_id'])) {
+	echo '<div class="title">
+				<h4>Upravljanje vasim racunom</h4>
+			</div>
+			<ul>
+			
+			<li><a href="change_password.php" title="promjena lozinke">Promijenite vasu lozinku</a></li>
+			<li><a href="forgot_password.php" title="zaboravljena lozinka">Zaboravili ste vasu lozinku</a></li>
+			<li><a href="logout.php" title="odjava">Odjavite se</a></li>
+			
+			</ul>
+			';
+	if (isset($_SESSION['user_admin'])) {
+		echo '<div class="title">
+					<h4>Administracija</h4>
+				</div>
+				<ul>
+				<li><a href="add_book.php" title="dodavanje_knjige">Dodajte knjigu u bazu</a></li>
+				<li><a href="kolicina.php" title="dodavanje_kolicine">Dodajte novu kolicinu knjige u BP</a></li>
+				
+				</ul>
+				';		
+	}					
+} else {	
+	require ('includes/login_form.inc.php');	
+}
+?>
+	<div class="title">
+				
+			</div>	
+		</div>		
+		<div class="footer">
+			<p><a href="http://www.etfos.hr" title="Site Map">Elektrotehnicki fakultet</a> | 
+			   
+			   &nbsp; - &nbsp; &copy; Web sucelje za prodaju knjiga &nbsp; - &nbsp; Website by 
+			   <a href="http://preporuci-mi.co.cc/stranica/o_meni.php">Slaven Sakacic</a>
+			</p> 
+		</div>	
+	</div>
+</div>
+</body>
+</html>
