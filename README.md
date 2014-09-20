@@ -9,8 +9,8 @@ IZRADA WEB SUČELJA ZA PRODAJU
 <p align="justify">
 Izrada web sučelja za prodaju omogućava dodavanje proizvoda, praćenje preostale količine proizvoda na skladištu i online prodaju istih. Kupci se mogu prijaviti na stranicu i dodavati proizvode u košaricu, odabrati načine plaćanja i preuzimanja proizvoda.</p>
 
-<b>Unutar 
-
+<b>Unutar </b>
+<b>
 /html/config.php definirat:</b>
 
 <i>if (!defined("DB_SERVER")) define("DB_SERVER", "localhost");</i>
