@@ -1,18 +1,20 @@
 IZRADA WEB SUČELJA ZA PRODAJU
 ===========
 
-<h1>My final thesis for college <a href="http://www.etfos.unios.hr/?pocetna"> <b>ETFOS</b></a> created year 2011.</h1>
+<h1>My final thesis at college <a href="http://www.etfos.unios.hr/?pocetna"> <b>ETFOS</b></a> created year 2011.</h1>
 
 The web interface can be found at <a href="http://slaven-sakacic.from.hr/zavrsni_rad/html/index.php">slaven-sakacic.from.hr/zavrsni_rad</a>
+
+<h4>Croatian introduction:</h4>
 <p align="justify">Cilj ovog završnog rada je koristeći programerski jezik PHP ostvariti web sučelje na kojem su implementirane komponente virtualne košarice kojom se omogućuje kupovina proizvoda koji su dodani na skladište. Uz teorijska razmatranja o elektroničkoj trgovini u trećem poglavlju, rad sadrži i opis PHP koda važan za razumijevanje cijelokupnog rada. Izrađeno web sučelje sadržava karakteističnre elemente za jednu elektroničku trgovinu poput, virtualne košarice, registraciju korisnika, prijavu korisnika i administratorske stranice. Kreirane su forme za unos korisnikovih podataka. Koristeći MySQL bazu podataka, podaci o proizvodima,  korisnicima, narudžbama spremaju se u tablice koje se onda ispisuju zbog moguće evidencije i ispravaka. U četvrtom i petom poglavlju dano je nešto detaljnije objašnjenje koda koje se tiče programerskog rješenja, zajedno sa slikama i komentarima radi što boljeg razumijevanja.</p>
 
-<h2>1. Zadatak završnog rada </h2>
+<h2>The task of the final paper</h2>
 <p align="justify">
-Izrada web sučelja za prodaju omogućava dodavanje proizvoda, praćenje preostale količine proizvoda na skladištu i online prodaju istih. Kupci se mogu prijaviti na stranicu i dodavati proizvode u košaricu, odabrati načine plaćanja i preuzimanja proizvoda.</p>
+Web sites for sale allow you to add products, monitor the remaining amount in stock and sell them online. Customers can log on to the site and add products to their cart, choose payment options and product downloads. </p>
 
-<b>Unutar </b>
+<b>Configuring to work on your machine: </b>
 <b>
-/html/config.php definirat:</b>
+/html/config.php define:</b>
 
 <i>if (!defined("DB_SERVER")) define("DB_SERVER", "localhost");</i>
 
@@ -23,7 +25,7 @@ Izrada web sučelja za prodaju omogućava dodavanje proizvoda, praćenje preosta
 <i>if (!defined("DB_PASSWORD")) define ("DB_PASSWORD", "sys");</i>
 
 
-<b>/html/confirm.php definirat:</b>
+<b>/html/confirm.php define:</b>
 
 <i>define ('BASE_URI', 'C:/xampp/htdocs/zavrsni_rad/');</i>
 
@@ -33,7 +35,7 @@ Izrada web sučelja za prodaju omogućava dodavanje proizvoda, praćenje preosta
 
 <i>define ('MYSQL', BASE_URI . 'mysql.inc.php');</i>
 
-<b>i mysql.inc.php: </b>
+<b>i mysql.inc.php define: </b>
 
 <i>DEFINE ('DB_U', 'root');</i>
 
