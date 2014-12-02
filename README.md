@@ -1,4 +1,4 @@
-WEB INTERFACE FOR SALE
+WEB INTERFACE FOR SALES
 ===========
 
 <h1>My final thesis at college <a href="http://www.etfos.unios.hr/?pocetna"> <b>ETFOS</b></a> created year 2011.</h1>
