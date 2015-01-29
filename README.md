@@ -10,9 +10,9 @@ The web interface can be found at <a href="http://slaven-sakacic.from.hr/zavrsni
 
 <h2>The task of the final paper</h2>
 <p align="justify">
-Web sites for sale allow you to add products, monitor the remaining amount in stock and sell them online. Customers can log on to the site and add products to their cart, choose payment options and product downloads. </p>
+This final thesis allows you to add products, monitor the remaining amount of products in stock and sell them online. Customers can log on too the site and add products to their cart, choose payment options and product options. </p>
 
-<b>Configuring to work on your machine: </b>
+<b>Configurations to work on your machine: </b>
 <b>
 /html/config.php define:</b>
 
@@ -35,7 +35,7 @@ Web sites for sale allow you to add products, monitor the remaining amount in st
 
 <i>define ('MYSQL', BASE_URI . 'mysql.inc.php');</i>
 
-<b>i mysql.inc.php define: </b>
+<b>and mysql.inc.php define: </b>
 
 <i>DEFINE ('DB_U', 'root');</i>
 
