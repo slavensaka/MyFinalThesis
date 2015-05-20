@@ -2,7 +2,7 @@ WEB INTERFACE FOR SALES
 ===========
 
 <h1>My final thesis at college <a href="http://www.etfos.unios.hr/?pocetna"> <b>ETFOS</b></a> created year 2011.</h1>
-
+Web interface is down for a while, will be back up.
 The web interface can be found at <a href="http://slaven-sakacic.from.hr/zavrsni_rad/html/index.php">slaven-sakacic.from.hr/zavrsni_rad</a>
 
 <h4>Croatian introduction:</h4>
