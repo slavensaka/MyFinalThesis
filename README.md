@@ -1,7 +1,7 @@
-#WEB INTERFACE FOR SALES
+# WEB INTERFACE FOR SALES
 ===========
 
-<h1>My final thesis at college <a href="http://www.etfos.unios.hr/?pocetna"> <b>ETFOS</b></a> created year 2011.</h1>
+### My final thesis at college <a href="http://www.etfos.unios.hr/?pocetna"> <b>ETFOS</b></a> created year 2011.
 Web site is down for a while, will be back up.
 The web interface can be found at <a href="http://slaven-sakacic.from.hr/zavrsni_rad/html/index.php">slaven-sakacic.from.hr/zavrsni_rad</a>
 
@@ -13,8 +13,8 @@ The web interface can be found at <a href="http://slaven-sakacic.from.hr/zavrsni
 This final thesis allows you to add products, monitor the remaining amount of products in stock and sell them online. Customers can log on too the site and add products to their cart, choose payment options and product options. </p>
 
 <b>Configurations to work on your machine: </b>
-<b>
-/html/config.php define:</b>
+### DEFINE EVERYWHERE WHERE THIS LINE ARE SITUATED
+<b>/html/config.php define:</b>
 
 <i>if (!defined("DB_SERVER")) define("DB_SERVER", "localhost");</i>
 
