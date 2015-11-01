@@ -2,7 +2,7 @@
 
 ### My final thesis at college <a href="http://www.etfos.unios.hr/?pocetna"> <b>ETFOS</b></a> created year 2011.
 
-The web interface can be found at <a href="http://slaven-sakacic.from.hr/zavrsni_rad/html/index.php">slaven-sakacic.from.hr/zavrsni_rad</a>
+The web interface can be found at <a href="http://zavrsni.site40.net/html/index.php">http://zavrsni.site40.net/html/index.php</a>
 
 <h4>Croatian language introduction:</h4>
 <p align="justify">Cilj ovog završnog rada je koristeći programerski jezik PHP ostvariti web sučelje na kojem su implementirane komponente virtualne košarice kojom se omogućuje kupovina proizvoda koji su dodani na skladište. Uz teorijska razmatranja o elektroničkoj trgovini u trećem poglavlju, rad sadrži i opis PHP koda važan za razumijevanje cijelokupnog rada.
